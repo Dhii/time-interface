@@ -7,7 +7,7 @@ namespace RebelCode\Time;
  *
  * @since [*next-version*]
  */
-interface PeriodInterface
+interface PeriodInterface extends IntervalInterface
 {
     /**
      * Retrieves the start time for this period.
@@ -26,13 +26,4 @@ interface PeriodInterface
      * @return TimeInterface The end time.
      */
     public function getEnd();
-
-    /**
-     * Retrieves the duration of this period.
-     *
-     * @since [*next-version*]
-     *
-     * @return int The duration of the period as an integer number of seconds.
-     */
-    public function getDuration();
 }

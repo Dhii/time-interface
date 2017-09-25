@@ -50,5 +50,11 @@ class PeriodInterfaceTest extends TestCase
             $subject,
             'A valid instance of the test subject could not be created.'
         );
+
+        $this->assertInstanceOf(
+            'RebelCode\Time\IntervalInterface',
+            $subject,
+            'Test subject does not extend expected parent interface.'
+        );
     }
 }
