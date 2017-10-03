@@ -54,7 +54,7 @@ class PeriodInterfaceTest extends TestCase
         $this->assertInstanceOf(
             'RebelCode\Time\IntervalInterface',
             $subject,
-            'Test subject does not extend expected parent interface.'
+            'Test subject does not implement parent interface.'
         );
     }
 }
