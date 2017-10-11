@@ -1,12 +1,12 @@
 {
-    "name": "rebelcode/time-interface",
+    "name": "dhii/time-interface",
     "description": "Interfaces for dealing with time.",
     "type": "library",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "RebelCode",
-            "email": "dev@rebelcode.com"
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
         }
     ],
     "minimum-stability": "dev",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RebelCode\\Time\\": "src"
+            "Dhii\\Time\\": "src"
         }
     },
     "scripts": {
