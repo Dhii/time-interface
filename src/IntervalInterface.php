@@ -14,7 +14,7 @@ interface IntervalInterface
      *
      * @since [*next-version*]
      *
-     * @return int The duration of the interval, as an integer number of seconds.
+     * @return int The number of seconds in the interval.
      */
     public function getDuration();
 }

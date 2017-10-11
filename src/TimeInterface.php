@@ -14,7 +14,7 @@ interface TimeInterface
      *
      * @since [*next-version*]
      *
-     * @return int An integer timestamp - the number of seconds since unix epoch.
+     * @return int The number of seconds since Unix epoch.
      */
     public function getTimestamp();
 }
