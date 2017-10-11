@@ -1,8 +1,8 @@
 <?php
 
-namespace RebelCode\Time\UnitTest;
+namespace Dhii\Time\UnitTest;
 
-use RebelCode\Time\PeriodInterface as TestSubject;
+use Dhii\Time\PeriodInterface as TestSubject;
 use Xpmock\TestCase;
 
 /**
@@ -17,7 +17,7 @@ class PeriodInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'RebelCode\Time\PeriodInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Time\PeriodInterface';
 
     /**
      * Creates a new instance of the test subject.
@@ -52,7 +52,7 @@ class PeriodInterfaceTest extends TestCase
         );
 
         $this->assertInstanceOf(
-            'RebelCode\Time\IntervalInterface',
+            'Dhii\Time\IntervalInterface',
             $subject,
             'Test subject does not implement parent interface.'
         );

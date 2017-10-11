@@ -1,9 +1,9 @@
 <?php
 
-namespace RebelCode\Time\UnitTest;
+namespace Dhii\Time\UnitTest;
 
 use Xpmock\TestCase;
-use RebelCode\Time\PeriodAwareInterface as TestSubject;
+use Dhii\Time\PeriodAwareInterface as TestSubject;
 
 /**
  * Tests {@see TestSubject}.
@@ -17,7 +17,7 @@ class PeriodAwareInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'RebelCode\Time\PeriodAwareInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Time\PeriodAwareInterface';
 
     /**
      * Creates a new instance of the test subject.

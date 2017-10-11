@@ -1,6 +1,6 @@
 <?php
 
-namespace RebelCode\Time;
+namespace Dhii\Time;
 
 /**
  * Something that represents a point in time.

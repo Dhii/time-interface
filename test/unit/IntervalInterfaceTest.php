@@ -1,8 +1,8 @@
 <?php
 
-namespace RebelCode\Time\UnitTest;
+namespace Dhii\Time\UnitTest;
 
-use RebelCode\Time\IntervalInterface as TestSubject;
+use Dhii\Time\IntervalInterface as TestSubject;
 use Xpmock\TestCase;
 
 /**
@@ -17,7 +17,7 @@ class IntervalInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'RebelCode\Time\IntervalInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Time\IntervalInterface';
 
     /**
      * Creates a new instance of the test subject.

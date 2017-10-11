@@ -1,9 +1,9 @@
 <?php
 
-namespace RebelCode\Time\UnitTest;
+namespace Dhii\Time\UnitTest;
 
 use Xpmock\TestCase;
-use RebelCode\Time\TimeInterface as TestSubject;
+use Dhii\Time\TimeInterface as TestSubject;
 
 /**
  * Tests {@see TestSubject}.
@@ -17,7 +17,7 @@ class TimeInterfaceTest extends TestCase
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'RebelCode\Time\TimeInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Time\TimeInterface';
 
     /**
      * Creates a new instance of the test subject.

@@ -1,6 +1,6 @@
 <?php
 
-namespace RebelCode\Time;
+namespace Dhii\Time;
 
 /**
  * Something that is aware of, and can provide, a time object.
