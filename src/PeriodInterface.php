@@ -14,7 +14,7 @@ interface PeriodInterface extends IntervalInterface
      *
      * @since [*next-version*]
      *
-     * @return TimeInterface The start time.
+     * @return int|TimeInterface The start time.
      */
     public function getStart();
 
@@ -23,7 +23,7 @@ interface PeriodInterface extends IntervalInterface
      *
      * @since [*next-version*]
      *
-     * @return TimeInterface The end time.
+     * @return int|TimeInterface The end time.
      */
     public function getEnd();
 }
