@@ -25,6 +25,12 @@
             "Dhii\\Time\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Dhii\\Time\\UnitTest\\": "test/unit",
+            "Dhii\\Time\\FuncTest\\": "test/functional"
+        }
+    },
     "scripts": {
         "test": "phpunit",
         "csfix": "php-cs-fixer fix -vvv"
